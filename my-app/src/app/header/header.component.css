@@ -1,0 +1,58 @@
+.headerBackground{
+  background-color: #004264;
+  position: absolute;
+  width: 2000px;
+  height: 80px;
+  right:0.1px;
+  top:-10px;
+}
+
+.logo{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  right:1700px;
+  top:15px;
+}
+
+.navbar {
+  background-color: #33333300;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 700px;
+  font-family: "billo", sans-serif;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+
+  color: #f0cd71;
+}
+
+.MatIcon
+{
+  position: absolute;
+  color: #f0cd71;
+  left: 1500px;
+  top: 28px;
+  cursor: pointer;
+}

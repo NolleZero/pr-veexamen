@@ -1,0 +1,19 @@
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  z-index: 1000;
+}
+
+.cookie-consent p {
+  color: white;
+}
+
+.cookie-consent button {
+  color: white;
+  border-color: #f0cd71;
+  background-color: #f0cd71;
+}

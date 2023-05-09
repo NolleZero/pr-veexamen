@@ -1,0 +1,8 @@
+<mat-card class="cookie-consent" *ngIf="showCookieMessage">
+  <mat-card-content>
+    <p>Dette nettstedet bruker cookies for å forbedre brukeropplevelsen. Ved å trykke 'OK' godtar du vår bruk av cookies.</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="consentToCookies()">OK</button>
+  </mat-card-actions>
+</mat-card>
